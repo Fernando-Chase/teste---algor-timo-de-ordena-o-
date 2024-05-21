@@ -11,11 +11,12 @@ public class MySelectionSort{
              if (i==4){
                  System.out.print(array [i] + " }");
              }else{
-                 System.out.print(array [i] + ", ");                }
+                 System.out.print(array [i] + ", ");  
+             }     
         }
         System.out.println(" ");
 
-        for (i = 1; i < 5; i++)
+        for (i = 0; i < 5-1; i++)
         {
             min = i;
             for (j = i+1; j < 5; j++)
@@ -29,11 +30,11 @@ public class MySelectionSort{
         }
         System.out.println(" ");
         System.out.print("Array Ordenado = { ");
-        for(i = 0; i < 5; i++){
+        for(i = 0; i<5; i++) {
             if (i==4){
                 System.out.print(array[i] + " }");
             }else{
-                System.out.print(array [i] + ", ");
+                System.out.print(array[i] + ", ");
             }
         }
     }
