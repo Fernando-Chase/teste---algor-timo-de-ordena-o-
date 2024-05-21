@@ -1,5 +1,5 @@
 public class MyBubbleSort {
-    public static void MyBubbleSort(String args[]) {
+    public static void main(String args[]) {
         int[] array = {5,3,8,2,6};
 
         int aux = 0;
@@ -32,7 +32,8 @@ public class MyBubbleSort {
             }else{
                 System.out.print(array[i] + " , ");
             }
-   	}
+   	    }
 
-    }
+    }    
+  }
 }
