@@ -71,7 +71,7 @@ public class MyMergeSort {
        ob.sort(array, 0, array.length-1);
 
        System.out.println();
-       System.out.print("Array Ordenado + { ");
+       System.out.print("Array Ordenado = { ");
        mostraArray(array);
    }
 }
